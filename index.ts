@@ -27,3 +27,5 @@ function getVoyantById(id: number): IVoyant | null {
 const voyantDiv: HTMLElement = document.querySelector('#voyant');
 
 voyantDiv.innerHTML = `${getVoyantById(1).name}`;
+
+console.log('push');
